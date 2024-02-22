@@ -1,0 +1,12 @@
+/* Their are Three types of CSS
+    1.inline css ie. css is applied inside the element itself
+    2.internal css ie. css is applied in the head tag of the html inside style tag ie. <style></style>
+    3.external css ie. css is applied through an external file which can be linked inside the head tag.
+    
+    
+    The Inline css has the highest precedence, then in between internal or external the one which is applied later will have the high precedence
+    
+*/
+em{
+    color: rgb(102, 3, 111);
+}

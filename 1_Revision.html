@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>This is a form</title>
+    <style>
+        h2{
+            background-color: brown;
+            margin-right: 1255px;
+            padding: 10px;
+        }
+        form{
+            border: 1px solid red;
+            padding: 5px;
+        }
+        label{
+            color: blue;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>Forms in HTML</h2>
+    <form action="backend.php">
+        <label for="myName">Name:</label>
+        <div>
+            <input type="text" id="myName">
+        </div><br>
+
+        <label for="myRoll">ROll No:</label>
+        <div>
+            <input type="text" id="myRoll">
+        </div><br>
+
+        <label for="Email">Email:</label>
+        <div>
+            <input type="email" id="Email">
+        </div><br>
+
+        <label for="date">Date:</label>
+        <div>
+            <input type="date" id="date">
+        </div><br>
+
+        <label for="myBonus">Bonus:</label>
+        <div>
+            <input type="number" id="myBonus">
+        </div><br>
+
+        <label for="chk">Are you eligible?:</label>
+        <div>
+            <input type="checkbox" id="chk" checked>
+        </div><br>
+
+        <label for="myGender">Gender:</label>
+        <div>
+            Male:<input type="radio" name="Gender" id="myGender">
+            Female:<input type="radio" name="Gender" id="myGender">
+            Other:<input type="radio" name="Gender" id="myGender">
+        </div><br>
+
+        <label for="myText">Write about yourself:</label>
+        <div>
+            <textarea id="myText" cols="80" rows="10"></textarea>
+        </div><br>
+
+        <label for="myCar">Car:</label>
+        <select name="" id="myCar">
+            <option value="ind">Indigo</option>
+            <option value="swp">Swipt</option>
+        </select><br>
+        <input type="submit" value="Submit Now">
+        <input type="reset" value="Reset Now">
+    </form>
+</body>
+
+</html>

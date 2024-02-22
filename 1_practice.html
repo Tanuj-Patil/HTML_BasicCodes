@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <title>Document</title>
+        <style>
+            
+            header{
+            /* border: 2px solid red; */
+            background-color: red;
+        }
+        .navbar{
+            display: flex;
+            justify-content: center;
+        }
+        .navbar ul li{
+            background-color: darkblue;
+            list-style: none;
+            display: inline-block;
+            border: 2px solid red;
+            font-size: 25px;
+            font-weight: bold;
+            /* width: 150px; */
+            /* text-align: center; */
+            /* margin: 10px auto; */
+            padding: 10px;
+        }
+        #img{
+            position: relative;
+            top: 20px;
+            background-size: cover;
+            /* background-size: contain; */
+            background-repeat: no-repeat;
+            width: 200px;
+            height: 200px;
+            border: 2px solid rgb(6, 0, 0);
+        }
+        .abc{
+            display: flex;
+            justify-content: center;
+        }
+        .box{
+            position: relative;
+            background-attachment: fixed;
+            top: 30px;
+            border: 2px solid red;
+            background-image: url('man.jpg');
+            width: 300px;
+            height: 2000px;
+            background: red url('man.jpg') no-repeat fixed ;
+
+        }
+        </style>
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <ul>
+                <li>Home</li>
+                <li>About us</li>
+                <li>Login</li>
+                <li>Contact us</li>
+            </ul>
+        </div>
+    </header>
+    <div id="img">this is Div</div>
+    <div class="abc">
+    <div class="box"><p>this is a box</p></div>
+    </div>
+</body>
+</html>
